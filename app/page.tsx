@@ -494,7 +494,7 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="mb-8 flex justify-center">
+          <div className="mb-8  flex justify-center">
             <ThreeAd />
           </div>
           <hr className="mt-10" />
