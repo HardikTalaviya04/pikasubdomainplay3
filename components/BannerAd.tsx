@@ -44,7 +44,7 @@ export default function BannerAd() {
     <div
       id={adId}
       style={{
-        width: "100%",
+        width: "fit-content",
         minHeight: 250,
         display: "flex",
         justifyContent: "center",

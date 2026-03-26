@@ -93,7 +93,7 @@ export default function GptAd() {
     <div
       id={adId}
       style={{
-        width: "100%",
+        width: "fit-content",
         minHeight: 250,
         display: "flex",
         justifyContent: "center",
