@@ -98,7 +98,6 @@ export default function GptAd() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "1rem 0",
       }}
     />
   )

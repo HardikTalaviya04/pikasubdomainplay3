@@ -36,7 +36,7 @@ export default function CategoriesPage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 flex flex-col">
       <Header />
       <CategoryFilter selectedCategory={selectedCategory} onCategoryChange={setSelectedCategory} />
-      <div className="mb-8 flex justify-center">
+      <div className="my-8 flex justify-center">
         {/* <GptAd /> */}
         <BannerAd />
       </div>
@@ -74,7 +74,7 @@ export default function CategoriesPage() {
           
         )}
       </main>
-      <div className="mb-8 flex justify-center">
+      <div className="my-8 flex justify-center">
         <GptAd />
       </div>
       <Footer />

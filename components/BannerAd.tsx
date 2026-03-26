@@ -49,7 +49,6 @@ export default function BannerAd() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "1rem 0",
       }}
     />
   )

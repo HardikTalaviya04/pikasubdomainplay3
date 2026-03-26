@@ -385,7 +385,7 @@ export default function Home() {
           </div>
 
 
-          <div className="mb-8 flex justify-center">
+          <div className="my-8 flex justify-center">
             <GptAd />
           </div>
 
@@ -472,7 +472,7 @@ export default function Home() {
               )}
             </div>
           </div>
-          <div className="mb-8 flex justify-center">
+          <div className="my-8 flex justify-center">
             <BannerAd />
           </div>
           <div className="ml-3">
@@ -491,7 +491,7 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="mb-8  flex justify-center">
+          <div className="my-8 flex justify-center">
             <ThreeAd />
           </div>
           <hr className="mt-10" />

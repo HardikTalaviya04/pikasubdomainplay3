@@ -39,7 +39,7 @@ export default function TrendingPage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 flex flex-col">
       <Header />
       <CategoryFilter selectedCategory={selectedCategory} onCategoryChange={setSelectedCategory} />
-      <div className="mb-8 flex justify-center">
+      <div className="my-8 flex justify-center">
         {/* <GptAd /> */}
         <BannerAd />
       </div>
@@ -53,7 +53,7 @@ export default function TrendingPage() {
             <p className="text-slate-400">Most played and loved games right now</p>
           </div>
         </div>
-        <div className="mb-8 flex justify-center">
+        <div className="my-8 flex justify-center">
             <ThreeAd />
           </div>
         {isLoading ? (
@@ -75,7 +75,7 @@ export default function TrendingPage() {
           </div>
         )}
       </main>
-      <div className="mb-8 flex justify-center">
+      <div className="my-8 flex justify-center">
         <GptAd />
       </div>
       <Footer />

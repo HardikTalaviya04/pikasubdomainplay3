@@ -141,7 +141,7 @@ export default function GamePage() {
       <main className="max-w-7xl mx-auto px-4 py-12 flex-1">
         {/* Game Header */}
         {/* <HorizontalAd /> */}
-        <div className="items-center m-2">
+        <div className="my-8 flex justify-center">
           <GptAd />
         </div>
 
@@ -191,7 +191,7 @@ export default function GamePage() {
           <h2 className="text-2xl font-bold text-white mb-4">Game Statistics</h2>
           <GameStats game={game} />
         </div>
-        <div className="items-center m-2">
+        <div className="my-8 flex justify-center">
           <BannerAd />
         </div>
         <div className="mb-12 p-6 bg-slate-800/50 rounded-lg border border-purple-500/20">
@@ -222,7 +222,7 @@ export default function GamePage() {
           )}
         </div>
         {/* <HorizontalAd /> */}
-        <div className="items-center m-2">
+        <div className="my-8 flex justify-center">
           <ThreeAd />
         </div>
         {/* Related Games */}
