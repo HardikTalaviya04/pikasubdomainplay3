@@ -48,6 +48,7 @@ export default function ThreeAd() {
         minHeight: 250,
         display: "flex",
         justifyContent: "center",
+        alignItems: "center",
       }}
     />
   )
