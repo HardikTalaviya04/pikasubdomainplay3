@@ -49,8 +49,7 @@ export default function ThreeAd() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#f0f0f0",
-        margin: "8px 0",
+        padding: "1rem 0",
       }}
     />
   )

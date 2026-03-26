@@ -6,13 +6,10 @@ import { Suspense, useEffect, useState } from "react"
 import { Header } from "@/components/header"
 import { CategoryFilter } from "@/components/category-filter"
 import { GameGrid } from "@/components/game-grid"
-import { Footer } from "@/components/footer"
 import { useSearchParams } from "next/navigation"
 import { Gamepad2 } from 'lucide-react';
-import Script from 'next/script'
 import Link from "next/link"
 import GptAd from "@/components/GptAd"
-import GoogleAd from "@/components/GoogleAd"
 import { Game } from "@/lib/types"
 import BannerAd from "@/components/BannerAd"
 import ThreeAd from "@/components/ThreeAd"

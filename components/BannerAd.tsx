@@ -48,6 +48,8 @@ export default function BannerAd() {
         minHeight: 250,
         display: "flex",
         justifyContent: "center",
+        alignItems: "center",
+        padding: "1rem 0",
       }}
     />
   )
